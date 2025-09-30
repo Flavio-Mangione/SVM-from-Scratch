@@ -129,11 +129,11 @@ plot_confusion_matrix(y_train, svm.predict(X_train), y_test, y_pred, mode='binar
 plot_decision_boundary(svm, X_test, y_test)
 ```
 <p align="center">
-  <img src="IMG_Git/SVM_Plot.png" alt="NASA Challenge">
+  <img src="IMG_Git/SVM_Plot.png" alt="Decision Boundary Plot">
 </p>
 
 <p align="center">
-  <img src="IMG_Git/Confusion_Matrix.png" alt="NASA Challenge">
+  <img src="IMG_Git/Confusion_Matrix.png" alt="Confusion Matrix Binary">
 </p>
 
 ### Multiclass Classification Example
