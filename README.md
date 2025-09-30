@@ -41,7 +41,7 @@ This repository contains the following files:
 
 ### Notebook Demo
 
-You can explore the notebook [here](https://nbviewer.org/github/USERNAME/REPO/blob/main/Main.ipynb)
+You can explore the notebook [here](https://nbviewer.org/github/Flavio-Mangione/SVM-from-Scratch/blob/main/Notebook%20Demo.ipynb)
 
 ---
 
