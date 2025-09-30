@@ -31,10 +31,15 @@ This repository contains the following files:
 
 ```
 ├── SVMKit.py          # Python module with my SVM implementation  
-├── SVM_evaluation.py  # Python file with usefull plot and Grid Search for SVM evaluation and comparison 
+├── SVM_evaluation.py  # Python file with usefull plot and Grid Search for SVM evaluation and comparison
+├── Notebook Demo.ipynb 
 ├── README.md
 └── LICENSE
 ```
+
+## Notebook Demo
+
+You can explore the notebook [here](https://nbviewer.org/github/USERNAME/REPO/blob/main/Main.ipynb)
 
 ### SVMKit.py
 
