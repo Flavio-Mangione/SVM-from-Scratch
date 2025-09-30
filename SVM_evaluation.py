@@ -182,14 +182,15 @@ def plot_decision_boundary(svm, X: np.ndarray, y: np.ndarray, title="SVM Decisio
     custom_cmap = ListedColormap(colors)
 
     plt.contourf(xx, yy, Z, levels=len(np.unique(y)), cmap=custom_cmap, alpha=0.6)
+    plt.contour(xx, yy, Z, colors='k', linewidths=0.5, alpha=0.8)
 
     for i, classes in enumerate(np.unique(y)):
         plt.scatter(X[y==classes, 0], X[y==classes, 1], 
                    label=f'Class {i+1}', edgecolors='k', alpha=0.8, color=colors[i])
 
-    plt.title(title)
-    plt.xlabel('Feature 1')
-    plt.ylabel('Feature 2')
+    plt.title(title, fontsize=14)
+    plt.xlabel('x1', fontsize=12)
+    plt.ylabel('x2', fontsize=12)
     plt.legend(fontsize=12)
     plt.grid(True, alpha=0.3)
 
