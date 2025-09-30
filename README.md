@@ -37,9 +37,13 @@ This repository contains the following files:
 └── LICENSE
 ```
 
-## Notebook Demo
+---
+
+### Notebook Demo
 
 You can explore the notebook [here](https://nbviewer.org/github/USERNAME/REPO/blob/main/Main.ipynb)
+
+---
 
 ### SVMKit.py
 
@@ -58,6 +62,8 @@ The main SVM implementation containing:
   - Pair optimization
   - Bias computation
   - Duality gap calculation
+    
+---
 
 ### SVM_evaluation.py
 
@@ -67,6 +73,8 @@ Evaluation and analysis tools including:
 - `plot_confusion_matrix()`: Confusion matrix visualization
 - `plot_decision_boundary()`: 2D decision boundary plots
 - `build_svm()`: Helper function for SVM construction
+
+---
 
 ## Installation
 
