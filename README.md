@@ -30,9 +30,9 @@ For these implementation were used two different type of kernels and two differe
 This repository contains the following files:
 
 ```
+├── Notebook Demo.ipynb  # Example of notebook that I used for my project
 ├── SVMKit.py          # Python module with my SVM implementation  
 ├── SVM_evaluation.py  # Python file with usefull plot and Grid Search for SVM evaluation and comparison
-├── Notebook Demo.ipynb 
 ├── README.md
 └── LICENSE
 ```
