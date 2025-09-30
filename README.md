@@ -115,6 +115,13 @@ print(f"Test Accuracy: {accuracy:.3f}")
 plot_confusion_matrix(y_train, svm.predict(X_train), y_test, y_pred, mode='binary')
 plot_decision_boundary(svm, X_test, y_test)
 ```
+<p align="center">
+  <img src="IMG_Git/SVM_Plot.png" alt="NASA Challenge">
+</p>
+
+<p align="center">
+  <img src="IMG_Git/Confusion_Matrix.png" alt="NASA Challenge">
+</p>
 
 ### Multiclass Classification Example
 
@@ -169,32 +176,6 @@ Output includes:
 - Alpha statistics (min/max)
 - CPU time
 - Duality gap
-
-### Example of plots
-
-```python
-X = X_test[:,:2]  # Use only the first two features for visualization
-y = y_test
-svm.fit(X, y)  # Retrain SVM on the two features for visualization
-
-plot_decision_boundary(svm, X, y)
-
-```
-<p align="center">
-  <img src="IMG_Git/SVM_Plot.png" alt="NASA Challenge">
-</p>
-
-```python
-
-y_train_pred = svm.predict(X_train)
-y_test_pred = svm.predict(X_test)
-
-plot_confusion_matrix(y_train,y_train_pred,y_test,y_test_pred)
-```
-
-<p align="center">
-  <img src="IMG_Git/Confusion_Matrix.png" alt="NASA Challenge">
-</p>
 
 ## License & Usage
 
